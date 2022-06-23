@@ -52,7 +52,7 @@ spring cloud function to process the payloads
    application.yaml file to set the property
    
    spring:
-  cloud:
+  cloud: 
     config:
       enabled: false
     stream:

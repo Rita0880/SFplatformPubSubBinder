@@ -94,6 +94,6 @@ server:
   port: 0
 
 
-# the custom binder is working fine as expected except the consumer group
+ the custom binder is working fine as expected except the consumer group
 
 

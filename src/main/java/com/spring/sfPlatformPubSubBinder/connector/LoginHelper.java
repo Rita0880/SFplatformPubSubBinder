@@ -54,7 +54,7 @@ public class LoginHelper {
         HttpEntity<String> request = new HttpEntity<String>(headers);
 
         String access_token_url = loginEndpoint + "?grant_type=password" ;
-        access_token_url += "&client_id=3MVG9lcxCTdG2Vbv8hLhttjRuqKNGVvIJZzzi4_Z.wGK.UmSjulXIIqiz1xxc_oniZ9yPHnkeXo1N412AzMWP&client_secret=155612E5740EFC92CE6F8139899BCBA8147A06020AFE53E20AD26FB748B79776&username=" + username + "&password=" + password;
+        access_token_url += "&client_id=xxxxxxx&client_secret=xxxxxx&username=" + username + "&password=" + password;
 
 
         ResponseEntity<OauthResponse> response = restTemplate.exchange(access_token_url, HttpMethod.POST, request, OauthResponse.class);
